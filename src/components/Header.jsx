@@ -33,7 +33,7 @@ export default function Header() {
           <>
             <div className="flex items-center gap-2 pr-2 border-r border-zinc-700">
               <User className="w-6 h-6 text-gray-400" />
-              <span className="text-sm text-gray-300">
+              <span className="hidden sm:block text-sm text-gray-300">
                 {user.user_metadata.full_name || user.email}
               </span>
             </div>

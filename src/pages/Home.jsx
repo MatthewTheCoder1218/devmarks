@@ -36,7 +36,7 @@ function Home() {
   return (
     <div>
     <Header/>
-    <div className="h-[90vh] px-4 py-8 bg-gradient-to-br from-[#0f0f0f] via-[#1a1a1a] to-[#0f0f0f]">
+    <div className="min-h-screen px-4 py-8 bg-gradient-to-br from-[#0f0f0f] via-[#1a1a1a] to-[#0f0f0f]">
       <div className="max-w-5xl mx-auto">
         <h1 className="text-3xl font-bold text-white mb-6">📚 Your Dev Bookmarks</h1>
 
