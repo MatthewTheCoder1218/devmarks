@@ -1,8 +1,15 @@
 {
     "routes": [
         {
-          "src": "/(.*)",
-          "dest": "/index.html"
+            "src": "/(.+\\.js)",
+            "headers": {
+                "Content-Type": "text/javascript"
+            },
+            "continue": true
+        },
+        {
+            "src": "/(.*)",
+            "dest": "/index.html"
         }
-      ]
+    ]
 }
